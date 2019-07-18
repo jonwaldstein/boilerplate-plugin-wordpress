@@ -1,0 +1,32 @@
+{
+  "name": "sts-boilerplate-plugin-wordpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "app": "app"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.1",
+    "cross-env": "^5.1",
+    "jquery": "^3.4.1",
+    "laravel-mix": "^4.1.2",
+    "resolve-url-loader": "^2.3.2",
+    "sass": "^1.22.6",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@wordpress/dom-ready": "^2.4.0",
+    "tailwindcss": "^1.0.5"
+  }
+}
